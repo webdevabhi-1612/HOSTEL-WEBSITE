@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="src/output.css">
     <title>You_Website_Name</title>
 </head>
@@ -22,36 +24,14 @@
                 </span>
             </a>
         </li>
-        <li>
-            <a
-                class="group inline-flex items-center rounded-xl px-3 sm:px-4 py-2 text-sm font-medium text-slate-700 transition
-                hover:text-[var(--ink)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[var(--sea)]/30">
-                <span class="relative">
-                    Stay
-                    <span
-                        class="absolute inset-x-0 -bottom-1 mx-auto h-[2px] w-0 bg-[var(--leaf)] rounded-full transition-all duration-200 group-hover:w-full"></span>
-                </span>
-            </a>
-        </li>
+
 
         <li>
             <a
                 class="group inline-flex items-center rounded-xl px-3 sm:px-4 py-2 text-sm font-medium text-slate-700 transition
                 hover:text-[var(--ink)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[var(--sea)]/30">
                 <span class="relative">
-                    Food
-                    <span
-                        class="absolute inset-x-0 -bottom-1 mx-auto h-[2px] w-0 bg-[var(--leaf)] rounded-full transition-all duration-200 group-hover:w-full"></span>
-                </span>
-            </a>
-        </li>
-
-        <li>
-            <a
-                class="group inline-flex items-center rounded-xl px-3 sm:px-4 py-2 text-sm font-medium text-slate-700 transition
-                hover:text-[var(--ink)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[var(--sea)]/30">
-                <span class="relative">
-                    Mate
+                    About Us
                     <span
                         class="absolute inset-x-0 -bottom-1 mx-auto h-[2px] w-0 bg-[var(--leaf)] rounded-full transition-all duration-200 group-hover:w-full"></span>
                 </span>
@@ -90,58 +70,28 @@
             class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid lg:grid-cols-2 gap-10 items-center">
             <!-- Copy -->
             <div class="fade-in">
-                <p class="uppercase tracking-widest text-xs text-[var(--leaf)] font-semibold mb-3">Your habitat of
-                    choice</p>
-                <h1 class="heading text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.05]">
-                    Find your perfect
-                    <span class="text-[var(--leaf)]">stay</span>,
-                    <span class="text-[var(--sea)]">food</span>, and
-                    <span class="text-[var(--leaf)]">mates</span> in
-                    oneplace
-                </h1>
-                <p class="mt-5 text-base sm:text-lg text-slate-600 max-w-xl">
-                    Curated PGs, hostels, rentals, meal plans, and like‑minded room-mates tailored for students.
-                    Minimal fuss, maximum comfort.
+                <p class="uppercase tracking-widest text-lg text-[var(--leaf)] font-semibold mb-6">
+                    Your habitat of choice
                 </p>
-
-                <!-- Search Bar -->
-                <div class="mt-8 rounded-2xl bg-white/90 soft-shadow p-3 sm:p-4 ">
-                    <form class="grid grid-cols-1 md:grid-cols-5 gap-3"> <!-- Location (2 cols) -->
-                        <div class="md:col-span-2"> <label class="text-xs text-[var(--muted)]">Location</label> <input
-                                type="text" placeholder="Pune, Kothrud"
-                                class="input ring-soft w-full border border-slate-200 px-4 py-3 focus:border-[var(--sea)]" />
-                        </div>
-                        <div class="md:col-span-2"> <label class="text-xs text-[var(--muted)]">Budget</label> <select
-                                class="input ring-soft w-full border border-slate-200 py-3 focus:border-[var(--sea)] md:min-w-[100px]">
-                                <option>Under ₹5,000</option>
-                                <option>₹5,000 - ₹8,000</option>
-                                <option>₹8,000 - ₹12,000</option>
-                                <option>₹12,000+</option>
-                            </select> </div>
-                        <div class="flex items-end"> <button type="button"
-                                class="w-full rounded-2xl bg-[var(--leaf)] hover:brightness-95 text-white px-4 py-3 soft-shadow transition">
-                                Search
-                            </button> </div>
-                    </form>
-                </div>
-
-                <div class="mt-4 flex items-center gap-4 text-sm text-slate-500">
-                    <div class="flex -space-x-2">
-                        <img class="size-12 rounded-full border-2  border-white"
-                            src="assets/Students images/student (1).jpeg" alt="">
-                        <img class="size-12 rounded-full border-2 border-white"
-                            src="assets/Students images/student (2).jpeg" alt="">
-                        <img class="size-12 rounded-full border-2 border-white"
-                            src="assets/Students images/student (3).jpeg" alt="">
-                    </div>
-                    <span>Trusted by 5000 + students</span>
-                </div>
+                <h1 class="heading font-extrabold leading-none mb-4">
+                    <span class="block text-[var(--sea)]" style="font-size:min(9vw, 6rem); line-height: 1;">
+                        Discover
+                    </span>
+                    <span class="block text-[var(--leaf)] font-extrabold"
+                        style="font-size: min(14vw, 8rem) ; line-height: 1;">
+                        Houstel
+                    </span>
+                </h1>
+                <p class="mt-8 text-lg sm:text-xl text-slate-600 max-w-2xl">
+                    India's first platform to find affordable student rentals, food services and roommates.
+                </p>
             </div>
+
 
             <!-- Imagery -->
             <div class="relative lg:ml-10 fade-in">
                 <div class="rounded-2xl overflow-hidden soft-shadow lift">
-                    <img src="./assets/group of students illustration.svg"
+                    <img src="src/assets/group of students illustration.svg"
                         class="w-full h-[360px] sm:h-[460px] object-fit">
                 </div>
 
@@ -172,8 +122,7 @@
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="flex items-end justify-between gap-6">
                 <div>
-                    <h2 class="heading text-3xl sm:text-4xl font-bold">Stay</h2>
-                    <p class="mt-2 text-slate-600">Find PGs, hostels, and cozy rentals near campus.</p>
+                    <h2 class="heading text-2xl sm:text-4xl font-bold">FIND LIVINGS , FOOD SERVICES, MATES</h2>
                 </div>
                 <a href="#" class="hidden sm:inline-flex text-sm text-[var(--leaf)] hover:underline">View all</a>
             </div>
@@ -182,17 +131,12 @@
             <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Card -->
                 <article class="rounded-2xl overflow-hidden bg-[var(--card)] soft-shadow lift">
-                    <img class="h-44 w-full object-cover"
-                        src="https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1500" alt="">
+                    <img class="h-44 w-full object-center" src="src/assets/Card illustration (1).svg" alt="">
                     <div class="p-5">
                         <div class="flex items-center justify-between">
-                            <h3 class="heading text-lg font-semibold"> Hostel No.1 </h3>
-                            <span class="text-sm font-semibold text-[var(--leaf)]">₹7,500/mo</span>
-                        </div>
-                        <p class="mt-1 text-sm text-slate-500">1.2 km from college</p>
-                        <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-600">
-                            <span class="px-3 py-1 rounded-full bg-slate-50 border border-slate-200">WiFi</span>
-                            <span class="px-3 py-1 rounded-full bg-slate-50 border border-slate-200">Meals</span>
+                            <h3 class="heading text-lg font-semibold"> Find PG, hostels, rentals </h3>
+
+
                         </div>
                         <button
                             class="mt-5 w-full rounded-2xl bg-[var(--sea)] hover:bg-[var(--leaf)] text-white py-2.5 transition soft-shadow">
@@ -201,198 +145,34 @@
                 </article>
 
                 <article class="rounded-2xl overflow-hidden bg-[var(--card)] soft-shadow lift">
-                    <img class="h-44 w-full object-cover"
-                        src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1500" alt="">
+                    <img class="h-44 w-full object-center" src="src/assets/Card illustration (3).svg" alt="">
                     <div class="p-5">
                         <div class="flex items-center justify-between">
-                            <h3 class="heading text-lg font-semibold">Girls PG 1</h3>
-                            <span class="text-sm font-semibold text-[var(--leaf)]">₹6,200/mo</span>
+                            <h3 class="heading text-lg font-semibold">Find food services</h3>
+
                         </div>
-                        <p class="mt-1 text-sm text-slate-500">0.9 km - Mixed</p>
-                        <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-600">
-                            <span class="px-3 py-1 rounded-full bg-slate-50 border border-slate-200">AC</span>
-                            <span class="px-3 py-1 rounded-full bg-slate-50 border border-slate-200">Meals</span>
-                            <span class="px-3 py-1 rounded-full bg-slate-50 border border-slate-200">Study Desk</span>
-                        </div>
+
                         <button
                             class="mt-5 w-full rounded-2xl bg-[var(--sea)] hover:bg-[var(--leaf)] text-white py-2.5 transition soft-shadow">Check
                             availability</button>
                     </div>
                 </article>
                 <article class="rounded-2xl overflow-hidden bg-[var(--card)] soft-shadow lift">
-                    <img class="h-44 w-full object-cover"
-                        src="https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?q=80&w=1500" alt="">
+                    <img class="h-44 w-full object-center" src="src/assets/Card illustration (4).svg" alt="">
                     <div class="p-5">
                         <div class="flex items-center justify-between">
-                            <h3 class="heading text-lg font-semibold">Boys PG 1 </h3>
-                            <span class="text-sm font-semibold text-[var(--leaf)]">₹10,000/mo</span>
+                            <h3 class="heading text-lg font-semibold">Find Mates</h3>
                         </div>
-                        <p class="mt-1 text-sm text-slate-500">2.3 km - from College</p>
-                        <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-600">
-                            <span class="px-3 py-1 rounded-full bg-slate-50 border border-slate-200">Kitchen</span>
-                            <span class="px-3 py-1 rounded-full bg-slate-50 border border-slate-200">Balcony</span>
-                            <span class="px-3 py-1 rounded-full bg-slate-50 border border-slate-200">Parking</span>
-                        </div>
+
                         <button
-                            class="mt-5 w-full rounded-2xl bg-[var(--sea)] hover:bg-[var(--leaf)] text-white py-2.5 transition soft-shadow">Check
-                            availability</button>
+                            class="mt-5 w-full rounded-2xl bg-[var(--sea)] hover:bg-[var(--leaf)] text-white py-2.5 transition soft-shadow">
+                            Match your vibe</button>
                     </div>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- Food Section -->
-    <section id="food" class="py-16 lg:py-24 bg-gradient-to-b from-white to-[var(--bg-end)]/40">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="flex items-end justify-between gap-6">
-                <div>
-                    <h2 class="heading text-3xl sm:text-4xl font-bold">Food</h2>
-                    <p class="mt-2 text-slate-600">Mess, tiffin services, and shared kitchens that feel like home.</p>
-                </div>
-            </div>>
-
-            <!-- Cards -->
-            <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <article class="rounded-2xl overflow-hidden bg-white soft-shadow lift fade-in">
-                    <img class="h-40 w-full object-cover"
-                        src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?q=80&w=1500" alt="">
-                    <div class="p-5">
-                        <h3 class="heading text-lg font-semibold">MESS NO. 1</h3>
-                        <p class="text-sm text-slate-500 mt-1">Meals - 3 times a day</p>
-                        <div class="mt-3 flex items-center justify-between">
-                            <span class="text-[var(--leaf)] font-semibold">₹800/mo</span>
-                            <button
-                                class="rounded-xl px-3 py-2 bg-[var(--sea)] text-white hover:bg-[var(--leaf)] transition">Subscribe</button>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="rounded-2xl overflow-hidden bg-white soft-shadow lift fade-in">
-                    <img class="h-40 w-full object-cover"
-                        src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1500" alt="">
-                    <div class="p-5">
-                        <h3 class="heading text-lg font-semibold">MESS NO. 2</h3>
-                        <p class="text-sm text-slate-500 mt-1">Home‑style lunch & dinner</p>
-                        <div class="mt-3 flex items-center justify-between">
-                            <span class="text-[var(--leaf)] font-semibold">₹99/box</span>
-                            <button
-                                class="rounded-xl px-3 py-2 bg-[var(--sea)] text-white hover:bg-[var(--leaf)] transition">Subscribe</button>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="rounded-2xl overflow-hidden bg-white soft-shadow lift fade-in">
-                    <img class="h-40 w-full object-cover"
-                        src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=1500" alt="">
-                    <div class="p-5">
-                        <h3 class="heading text-lg font-semibold">MESS NO. 3</h3>
-                        <p class="text-sm text-slate-500 mt-1">Meals - 3 times a day</p>
-                        <div class="mt-3 flex items-center justify-between">
-                            <span class="text-[var(--leaf)] font-semibold">₹99/box</span>
-                            <button
-                                class="rounded-xl px-3 py-2 bg-[var(--sea)] text-white hover:bg-[var(--leaf)] transition">Subscribe</button>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Mate Section -->
-    <section id="mate" class="py-16 lg:py-24">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="flex items-end justify-between gap-6">
-                <div>
-                    <h2 class="heading text-3xl sm:text-4xl font-bold">Find a Mate</h2>
-                    <p class="mt-2 text-slate-600">Meet like‑minded roommates with matching budgets and interests.</p>
-                </div>
-                <a href="#" class="hidden sm:inline-flex text-sm text-[var(--leaf)] hover:underline ">Explore
-                    profiles</a>
-            </div>
-
-            <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Profile Card -->
-                <article class="rounded-2xl bg-white soft-shadow p-5 lift">
-                    <div class="flex items-center gap-3">
-                        <img class="size-12 rounded-full object-cover"
-                            src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=200" alt="">
-                        <div>
-                            <h3 class="heading text-base font-semibold">Aarav S.</h3>
-                            <p class="text-xs text-slate-500">AI & DS - Early riser - Trekking</p>
-                        </div>
-                        <button class="ml-auto rounded-full p-2 bg-slate-50 hover:bg-[var(--mint)] transition"
-                            aria-label="Save">
-                            <svg class="size-5 text-[var(--leaf)]" viewBox="0 0 24 24" fill="none">
-                                <path d="M12 20l-7-7a4 4 0 015.66-5.66L12 8l1.34-1.66A4 4 0 1119 13l-7 7z"
-                                    stroke="currentColor" stroke-width="1.5" fill="none" />
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="mt-4 flex items-center justify-between text-sm">
-                        <span class="px-3 py-1 rounded-full bg-slate-50 border">₹6–8k</span>
-                        <span class="px-3 py-1 rounded-full bg-slate-50 border">Coder</span>
-                        <span class="px-3 py-1 rounded-full bg-slate-50 border">Quiet</span>
-                    </div>
-                    <button
-                        class="mt-5 w-full rounded-2xl bg-[var(--sea)] hover:bg-[var(--leaf)] text-white py-2.5 transition">Say
-                        hello</button>
-                </article>
-
-                <article class="rounded-2xl bg-white soft-shadow p-5 lift">
-                    <div class="flex items-center gap-3">
-                        <img class="size-12 rounded-full object-cover"
-                            src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=200" alt="">
-                        <div>
-                            <h3 class="heading text-base font-semibold">Meera K.</h3>
-                            <p class="text-xs text-slate-500">Design - Reads - Vegan</p>
-                        </div>
-                        <button class="ml-auto rounded-full p-2 bg-slate-50 hover:bg-[var(--mint)] transition"
-                            aria-label="Save">
-                            <svg class="size-5 text-[var(--leaf)]" viewBox="0 0 24 24" fill="none">
-                                <path d="M12 20l-7-7a4 4 0 015.66-5.66L12 8l1.34-1.66A4 4 0 1119 13l-7 7z"
-                                    stroke="currentColor" stroke-width="1.5" fill="none" />
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="mt-4 flex items-center justify-between text-sm">
-                        <span class="px-3 py-1 rounded-full bg-slate-50 border">₹8–10k</span>
-                        <span class="px-3 py-1 rounded-full bg-slate-50 border">Vegan</span>
-                        <span class="px-3 py-1 rounded-full bg-slate-50 border">Gym</span>
-                    </div>
-                    <button
-                        class="mt-5 w-full rounded-2xl bg-[var(--sea)] hover:bg-[var(--leaf)] text-white py-2.5 transition">Say
-                        hello</button>
-                </article>
-
-                <article class="rounded-2xl bg-white soft-shadow p-5 lift">
-                    <div class="flex items-center gap-3">
-                        <img class="size-12 rounded-full object-cover"
-                            src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200" alt="">
-                        <div>
-                            <h3 class="heading text-base font-semibold">Rohan P.</h3>
-                            <p class="text-xs text-slate-500">Coder - Night owl - Clean</p>
-                        </div>
-                        <button class="ml-auto rounded-full p-2 bg-slate-50 hover:bg-[var(--mint)] transition"
-                            aria-label="Save">
-                            <svg class="size-5 text-[var(--leaf)]" viewBox="0 0 24 24" fill="none">
-                                <path d="M12 20l-7-7a4 4 0 015.66-5.66L12 8l1.34-1.66A4 4 0 1119 13l-7 7z"
-                                    stroke="currentColor" stroke-width="1.5" fill="none" />
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="mt-4 flex items-center justify-between text-sm">
-                        <span class="px-3 py-1 rounded-full bg-slate-50 border">₹5–7k</span>
-                        <span class="px-3 py-1 rounded-full bg-slate-50 border">Non‑veg</span>
-                        <span class="px-3 py-1 rounded-full bg-slate-50 border">Quiet</span>
-                    </div>
-                    <button
-                        class="mt-5 w-full rounded-2xl bg-[var(--sea)] hover:bg-[var(--leaf)] text-white py-2.5 transition">Say
-                        hello</button>
-                </article>
-            </div>
-        </div>
-    </section>
 
     <!-- CTA Banner -->
     <section class="py-12">
@@ -400,18 +180,11 @@
             <div
                 class="rounded-2xl bg-gradient-to-r from-[var(--mint)]/70 to-[var(--sea)]/70 p-8 sm:p-10 soft-shadow flex flex-col md:flex-row items-center gap-6">
                 <div class="md:flex-1">
-                    <h3 class="heading text-2xl sm:text-3xl font-bold">Live - Study - Play</h3>
-                    <p class="mt-2 text-slate-700">Everything needed for a calm, productive stay—curated just for
-                        students and travelers.</p>
+                    <h3 class="heading text-2xl sm:text-3xl font-bold">Live - Learn - Connect</h3>
+                    <p class="mt-2 text-slate-700">Everything you need for a comfortable, productive stay—curated for
+                        students.</p>
                 </div>
-                <div class="flex gap-3 md:justify-end md:flex-1 w-full">
-                    <a href="#stay"
-                        class="w-full md:w-auto text-center rounded-2xl bg-white hover:bg-slate-50 border border-white/70 px-6 py-3 font-medium">Browse
-                        Stays</a>
-                    <a href="#mate"
-                        class="w-full md:w-auto text-center rounded-2xl bg-[var(--leaf)] hover:brightness-95 text-white px-6 py-3 font-medium soft-shadow">Find
-                        a Mate</a>
-                </div>
+
             </div>
         </div>
     </section>
@@ -421,8 +194,8 @@
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
             <div>
                 <h2 class="heading text-3xl sm:text-4xl font-bold">Say Hello</h2>
-                <p class="mt-2 text-slate-600 max-w-md"> Have any questions in mind ? Write in—our team replies within
-                    24 hours.</p>
+                <p class="mt-2 text-slate-600 max-w-md">Have any questions in mind ? Write in—our team replies within 24
+                    hours.</p>
 
                 <form class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <input class="input ring-soft w-full border border-slate-200 px-4 py-3 focus:border-[var(--sea)]"
@@ -445,7 +218,7 @@
             </div>
 
             <div class="relative">
-                <img class="rounded-2xl soft-shadow w-full h-[420px] object-cover" src="assets/illustration.svg"
+                <img class="rounded-2xl soft-shadow w-full h-[420px] object-cover" src="src/assets/illustration.svg"
                     alt="Courtyard residence">
                 <div class="absolute -bottom-6 right-6 bg-white rounded-2xl soft-shadow p-4 w-72">
                     <p class="text-sm font-semibold text-slate-800">Your_Name — Residence</p>
@@ -456,41 +229,48 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="border-t border-slate-100 bg-white">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
-            <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-                <div class="flex items-center gap-3">
-                    <div
-                        class="size-9 rounded-xl bg-gradient-to-br from-[var(--mint)] to-[var(--sea)] flex items-center justify-center">
-                        <span class="text-[var(--ink)] font-bold">YH</span>
-                    </div>
-                    <div>
-                        <p class="heading font-semibold">Your_Name</p>
-                        <p class="text-xs text-slate-500">Warm, trustworthy, inviting stays.</p>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-sm">
-                    <a class="hover:text-[var(--leaf)]">Stay</a>
-                    <a class="hover:text-[var(--leaf)]">Food</a>
-                    <a class="hover:text-[var(--leaf)]">Mate</a>
-                    <a class="hover:text-[var(--leaf)]">Contact</a>
-                </div>
+    <footer class="bg-white border-t border-slate-100 py-10 px-7">
+        <div class="max-w-6xl mx-auto px-8 flex flex-row justify-between items-center">
+            <!-- NAVIGATE -->
+            <div class="flex flex-col justify-center items-start flex-1 px-7">
+                <h3 class="text-base font-bold text-slate-700 mb-2 tracking-wide">NAVIGATE</h3>
+                <ul class="space-y-2 text-slate-700 text-sm">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Other Facilities</a></li>
+                    <li><a href="">Partners</a></li>
+                    <li><a href="">Find Food</a></li>
+                </ul>
             </div>
-
-            <div class="mt-8 flex items-center justify-between text-xs text-slate-500">
-                <p>© <span id="year"></span> Your_Name. All rights reserved.</p>
-                <div class="flex items-center gap-3">
-                    <a class="hover:text-[var(--leaf)]" href="#">Facebook</a>
-                    <span aria-hidden="true">- </span>
-                    <a class="hover:text-[var(--leaf)]" href="#">Instagram</a>
-                    <span aria-hidden="true">- </span>
-                    <a class="hover:text-[var(--leaf)]" href="#">YouTube</a>
+            <!-- LEGAL -->
+            <div class="flex flex-col justify-center items-center flex-1 px-4">
+                <h3 class="text-base font-bold text-slate-700 mb-2 tracking-wide">LEGAL</h3>
+                <ul class="space-y-2 text-slate-700 text-sm">
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <!-- CONNECT -->
+            <div class="flex flex-col justify-center items-end flex-1 px-7">
+                <h3 class="text-base font-bold text-slate-700 mb-2 tracking-wide">CONNECT</h3>
+                <div class="flex items-center gap-4 mt-1 text-2xl text-slate-700">
+                    <a href="" class="hover:text-[var(--leaf)]" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="" class="hover:text-[var(--leaf)]" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="" class="hover:text-[var(--leaf)]" aria-label="Facebook"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="mailto:" class="hover:text-[var(--leaf)]" aria-label="Email"><i
+                            class="fas fa-envelope"></i></a>
                 </div>
             </div>
         </div>
+        <div class="mt-8 text-center text-xs text-slate-500">
+            &copy; 2025 Houstel. All rights reserved.
+        </div>
     </footer>
+
 
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
